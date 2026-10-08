@@ -1,0 +1,20 @@
+name: forum_tarayici
+description: Forum sitelerinde baslik ve alt baslik arayan tarayici.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  html: ^0.15.4
+  path_provider: ^2.1.3
+  shared_preferences: ^2.2.3
+  permission_handler: ^11.3.1
+  flutter_foreground_task: ^8.0.0
+
+flutter:
+  uses-material-design: true

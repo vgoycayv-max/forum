@@ -1,0 +1,5 @@
+build/
+android/
+.dart_tool/
+.flutter-plugins*
+*.iml
